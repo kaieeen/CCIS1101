@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Website</title>
+    <link rel="icon" sizes="180x180" href="Images/iconic.webp">
+</head>
+<style>
+    body {
+        background-image: url(Images/aboutusbg.jfif);
+        font-family: 'Times New Roman';
+        padding: 0;}
+    header {
+        font-size: 15pt;
+        box-shadow: 0px 0px 200px rgb(24, 33, 56);
+        border: 2px solid rgba(49, 36, 36, 0.751);
+        background-image: linear-gradient#6e492c,#333;
+        color: #fff;
+        padding: 20px;}
+    nav ul {
+        list-style: none;}    
+    nav ul li {
+        display: inline;
+        margin-right: 20px;}
+    nav ul li a {
+        position: relative;
+        text-decoration: none;
+        cursor: pointer;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        transition: color 0.25s;
+    }
+    nav ul li a::after {
+        position: absolute;
+        content: "";
+        inset: 0;
+        scale: 1 0;
+        z-index: -1;
+        transition: 0.45s;
+        border-radius: 10px;
+    }    
+    nav ul li a:hover {
+        color:#e0af0f;
+    }
+    nav ul li a:hover::after{
+        scale:1 1;
+    }
+    .her {
+        text-align: center;
+        padding: 100px;}    
+    .hero {
+        text-align: center;
+        padding: 10px;}
+    .hero h1 {
+        color: #fff;
+        align: center;
+        font-size: 50pt;
+        }
+    .hero p {
+        color:#fff;
+        align: center;
+        font-size: 1.2em;
+        }
+    .footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            font-family:'Times New Roman', Times, serif;
+            color: #000000;
+            text-shadow: 0 0 5px #000000;
+        }
+    .logo{
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        width: 110px;
+        height: 110px;
+        box-shadow: 0 0 20px #000000;
+        transition: transform 0.3s ease;
+       }
+    .logo:hover{
+        transform: scale(1.1);
+       }
+    h1{
+       font-size: 36px;
+       color: #fff;
+       text-shadow: 0 2px 4px #0f9625;
+       text-align: center;
+       margin-top: 10px;
+       font-family: Helvetica, Arial,sans-serif;
+       text-decoration: underline;
+       }
+    .team-section {
+        text-align: center;
+        padding: 80px 20px 50px;
+        }
+
+    .team-section h1 {
+        font-size: 2.5em;
+        margin-bottom: 30px;
+        color: #fff;
+        }
+
+    .team-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        }
+
+    .team-member {
+        background: #fffbe7;
+        color: #000000;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: transform 0.3 ease;
+        }
+    .team-member:hover {
+       transform: translateY(-5px); 
+       box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.7); 
+       }
+    .team-member img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+        border: 2px solid #e6dcabab;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+        }
+
+    .team-member h2 {
+        font-size: 1.5em;
+        margin: 10px 0;
+        color: #353535;
+        }
+
+    .team-member p {
+        font-size: 0.9em;
+        margin-bottom: 15px;
+        color: #494949;
+        }
+
+    .social-icons a {
+        text-decoration: none;
+        color: #000000;
+        margin: 0 5px;
+        font-size: 0.9em;
+        padding: 5px 10px;
+        border-radius: 5px;
+        background-color: #e6dcabab;
+        }
+
+    .social-icons a:hover {
+        background-color: #000000;
+        color: #e6dcabab;
+        }
+</style>
+
+<body id="body">
+    
+    <header id="header">
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/Administrator/Desktop/Static/.vscode/static.html">Home</a></li>
+                <li><a href="file:///C:/Users/Administrator/Desktop/Static/.vscode/aboutus.html">About Us</a></li>
+                <li><a href="file:///C:/Users/Administrator/Desktop/Static/.vscode/reference.html">References</a></li>
+                <li><a href="file:///C:/Users/Administrator/Desktop/Static/.vscode/contactus.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="team-section">
+                <p style="color: #fffbe7; background: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); padding: 20px;"><b>Welcome to Art Gallery! We are BSIS 109, a group of enthusiastic students embarking on a journey to explore the rich and inspiring world of the Renaissance period. This site marks a significant milestone in our learning process as we delve into the artistic masterpieces and cultural heritage of this extraordinary era. Our goal is to showcase the creativity, innovation, and historical significance of Renaissance art while providing a captivating and educational experience for visitors. Thank you for supporting our exploration, and we hope you enjoy immersing yourself in the beauty and legacy of the Renaissance!</b></p>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="Images/kiben.png" alt="Kevin">
+                        <h2>Kevin Gail Villanueva</h2>
+                        <br>
+                        <p>☏: 09952008404 </p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/profile.php?id=100031342650818">Facebook</a>
+                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfsdbmDtrKfsRQDmBBntPdfQvCtkPbhqqScSbZWXkRSxcwXgBcpPNwGFhBtSMVnZchkFWL">Email</a>
+                          
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="Images/lukas.png" alt="Luke">
+                        <h2>Luke Jireh Obida</h2>
+                        <br>
+                        <p>☏: 09934658815</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/lukas.leov/">Facebook</a>
+                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlFCnltZBbhzHthWmHmWscPdnmPjgWnBrpKWtmQCRXGjSltDSnWdtLCJqrqztPzBZHhPlB">Email</a>
+                            
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="Images/robert.png" alt="Robert">
+                        <h2>Robert Gersom Sobrevega</h2>
+                        <p>☏: 09154153680</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/robertgersom.sobrevega">Facebook</a>
+                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWtDvdScRsFsCmNphHHSkMFTxptXqCvRpmBLXzXQXpTsKnhmTtPzdhjlnPLCTMjWtxgWqQctQ">Email</a>
+                            
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="Images/ejj.png" alt="EJ">
+                        <h2>John Emmanuel Buragay</h2>
+                        <p>☏: 09276965091</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/ej.buragay">Facebook</a>
+                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRspXMFwXFTQVHHjGgwhdBkXFjQbfjgshHBJljFQvHhQvwLkHkBCXXjzDXSGmNqwLpTsLWg">Email</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer" align = "center">&copy; Renaissance Artists Static Website</div>
+        </section>
+    </main>
+</body>
+</html>

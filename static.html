@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Website</title>
+    <link rel="icon" sizes="180x180" href="Images/iconic.webp">
+</head>
+<style>
+    body {
+        background-image: url(Images/paintingbackground.png);
+        font-family: 'Times New Roman';
+        padding: 0;}
+    header {
+        font-size: 15pt;
+        box-shadow: 0px 0px 200px rgb(24, 33, 56);
+        border: 2px solid rgba(49, 36, 36, 0.751);
+        background-image: linear-gradient#6e492c,#333;
+        color: #fff;
+        padding: 20px;}
+    nav ul {
+        list-style: none;}    
+    nav ul li {
+        display: inline;
+        margin-right: 20px;}
+    nav ul li a {
+        position: relative;
+        text-decoration: none;
+        cursor: pointer;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        transition: color 0.25s;
+    }
+    nav ul li a::after {
+        position: absolute;
+        content: "";
+        inset: 0;
+        scale: 1 0;
+        z-index: -1;
+        transition: 0.45s;
+        border-radius: 10px;
+    }    
+    nav ul li a:hover {
+        color:#e0af0f;
+    }
+    nav ul li a:hover::after{
+        scale:1 1;
+    }
+    .her {
+        text-align: center;
+        padding: 100px;}    
+    .hero {
+        text-align: center;
+        padding: 10px;}
+    .hero h1 {
+        color: #fff;
+        align: center;
+        font-size: 50pt;
+        }
+    .hero p {
+        color:#fff;
+        align: center;
+        font-size: 1.2em;
+        }
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #6e492c;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;}
+</style>
+
+<body id="body">
+    
+    <header id="header">
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/Administrator/Desktop/Static/.vscode/static.html">Home</a></li>
+                <li><a href="file:///C:/Users/Administrator/Desktop/Static/.vscode/aboutus.html">About Us</a></li>
+                <li><a href="file:///C:/Users/Administrator/Desktop/Static/.vscode/reference.html">References</a></li>
+                <li><a href="file:///C:/Users/Administrator/Desktop/Static/.vscode/contactus.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="her"></div>
+            <div class="hero">
+            <h1 class="hero h1" style="color:#fff;"><b>Welcome to the Art Gallery</b></h1>
+            <p class="hero p" style="color:#fff; margin-bottom: 10px;">Discover the famous artists in Renaissance Period!</p>
+            <a href="file:///C:/Users/Administrator/Desktop/Static/.vscode/static2.html" class="btn">Get Started</a>
+        </div>
+        </section>
+    </main>
+</body>
+</html>

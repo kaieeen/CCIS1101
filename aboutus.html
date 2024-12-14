@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="icon" sizes="180x180" href="Images/iconic.webp">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Times New Roman';
+            color: rgb(84, 74, 31);
+            text-shadow:0 0 15px#000000;
+            background-size: cover;
+            background-attachment: fixed;
+            background: url(Images/aboutusbg.jfif) no-repeat center center fixed
+
+        }
+        header {
+        font-size: 15pt;
+        margin: 7px;
+        box-shadow: 0px 0px 200px rgb(24, 33, 56);
+        border: 2px solid rgba(49, 36, 36, 0.751);
+        background-image: linear-gradient#6e492c,#333;
+        color: #fff;
+        padding: 20px;}
+        nav ul {
+        list-style: none;}    
+        nav ul li {
+        display: inline;
+        margin-right: 20px;}
+        nav ul li a {
+        position: relative;
+        text-decoration: none;
+        cursor: pointer;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        transition: color 0.25s;
+        }
+        nav ul li a::after {
+        position: absolute;
+        content: "";
+        inset: 0;
+        scale: 1 0;
+        z-index: -1;
+        transition: 0.45s;
+        border-radius: 10px;
+        }    
+        nav ul li a:hover {
+        color:#e0af0f;
+        }
+        nav ul li a:hover::after{
+        scale:1 1;
+        }
+        .container {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 0 0 20px #ffffff;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 80%;
+            background: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+
+        th, td {
+            padding: 20px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        th {
+            font-size: 1.5em;
+            background: rgba(0, 0, 0, 0.9);
+            color: #ba905d;
+            text-shadow: 0 0 5px #141313;
+        }
+
+        td {
+            font-size: 1.2em;
+            color: #cfc5ab;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            font-family:'Times New Roman', Times, serif;
+            color: #000000;
+            text-shadow: 0 0 5px #000000;
+        }
+
+    </style>
+</head>
+<body id="body">
+    <header id="header">
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/Administrator/Desktop/Static/.vscode/static.html">Home</a></li>
+                <li><a href="file:///C:/Users/Administrator/Desktop/Static/.vscode/aboutus.html">About Us</a></li>
+                <li><a href="file:///C:/Users/Administrator/Desktop/Static/.vscode/reference.html">References</a></li>
+                <li><a href="file:///C:/Users/Administrator/Desktop/Static/.vscode/contactus.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <div class="container">
+        <h1>About Us</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Members</th>
+                    <th>Information</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kevin Gail Villanueva</td>
+                    <td>As a college student with ICT experience from senior high school, this individual specializes in web design and content creation. The Contacts page is refined for clarity, with HTML and CSS used to enhance visual appeal. As a main website editor, this student upholds content quality and ensures a seamless user experience.</td>
+                </tr>
+                <tr>
+                    <td>Luke Jireh Obida</td>
+                    <td>As a college student, this student is dedicated to web design and content development. The References page is curated for accuracy and ease of use, with HTML and CSS applied for an enhanced appearance. As a main website creator, this student prioritizes quality content and a smooth user experience.</td>
+                </tr>
+                <tr>
+                    <td>Robert Gersom Sobrevega</td>
+                    <td>As a college freshman, this student focuses on web design and content creation. The About Us page is edited to be engaging, with HTML and CSS used to create visually appealing designs. As a main website contributor, this student ensures content quality and a user-friendly, cohesive site.</td>
+                </tr>
+                <tr>
+                    <td>John Emmanuel Buragay</td>
+                    <td>As a college student with ICT experience from senior high school, this student has a strong focus on web design and content development. The References page is organized for accuracy and ease of navigation, with HTML and CSS utilized for a polished look. As a main website contributor, this student maintains high standards for content and ensures an intuitive user experience.</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="footer">&copy; Renaissance Artists Static Website</div>
+    </div>
+</main>
+</body>
+</html>

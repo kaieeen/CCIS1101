@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michelangelo</title>
+    <link rel="icon" sizes="180x180" href="Images/iconic.webp">
+</head>
+<style>
+    body {
+        background-image: url(Images/paintingbackground.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Times New Roman';
+        padding: 0;}
+    header {
+        font-size: 15pt;
+        box-shadow: 0px 0px 200px rgb(24, 33, 56);
+        border: 2px solid rgba(49, 36, 36, 0.751);
+        background-image: linear-gradient#6e492c,#333;
+        color: #fff;
+        padding: 20px;}
+    nav ul {
+        list-style: none;}    
+    nav ul li {
+        display: inline;
+        margin-right: 20px;}
+    nav ul li a {
+        position: relative;
+        text-decoration: none;
+        cursor: pointer;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        transition: color 0.25s;
+    }
+    nav ul li a::after {
+        position: absolute;
+        content: "";
+        inset: 0;
+        scale: 1 0;
+        z-index: -1;
+        transition: 0.45s;
+        border-radius: 10px;
+    }    
+    nav ul li a:hover {
+        color:#e0af0f;
+    }
+    nav ul li a:hover::after{
+        scale:1 1;
+    }
+    .her {
+        text-align: center;
+        padding: 1px;}    
+    .hero {
+        text-align: center;
+        padding: 10px;}
+    .hero h1 {
+        color: #fff;
+        align: center;
+        font-size: 50pt;
+        }
+    table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 80%;
+            background: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+
+    th, td {
+            padding: 20px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+    th {
+            font-size: 1.5em;
+            background: rgba(0, 0, 0, 0.9);
+            color: #ba905d;
+            text-shadow: 0 0 5px #141313;
+        }
+
+    td {
+            font-size: 1.2em;
+            color: #cfc5ab;
+        }
+    .img-box {
+        background: var(--img) center;
+        background-size: cover;
+        flex-basis: 300px;
+        position: relative;
+        transition: 400ms all ease;
+        filter: grayscale(100%) opacity(35%);
+    }
+    .img-box:nth-child(odd) {
+        transform: translateY(-20px);
+    }
+    .img-box:hover{
+        flex-basis: 400px;
+        filter: grayscale(0%) opacity(100%);
+    }
+    .row {
+        box-sizing: border-box;
+    }
+    .clm {
+        float: left;
+        width: 19.5%;
+        padding: 3px;
+    }
+    .clm img {
+        height: 350px;
+    }
+    .btn {
+        display: inline-block;
+        font-size: 30pt;
+        margin-left: 30px;
+        margin-top: 30px;
+        padding: 10px 20px;
+        background-color: #6e492c;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;}
+</style>
+
+<body id="body">
+    
+    <header id="header">
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/Administrator/Desktop/Static/.vscode/static.html">Home</a></li>
+                <li><a href="file:///C:/Users/Administrator/Desktop/Static/.vscode/aboutus.html">About Us</a></li>
+                <li><a href="file:///C:/Users/Administrator/Desktop/Static/.vscode/reference.html">References</a></li>
+                <li><a href="file:///C:/Users/Administrator/Desktop/Static/.vscode/contactus.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <a href="file:///C:/Users/Administrator/Desktop/Static/.vscode/static2.html" class="btn" style="padding: 10px">◄</a>
+            <div class="hero">
+            <h1 class="hero h1" style="color:#fff;"><b>Michelangelo</b></h1>
+        </div>
+        </section>
+    </main>
+    <img src = "MichaelAngelo/profilemichael.jpg" length = "600px" width = "400px" align = "left" style = "padding-right: 10pt; padding-left: 10pt; "><p style = "color: #fff; font-size: 13pt;">&nbsp;&nbsp;Michelangelo di Lodovico Buonarroti Simoni (Italian: <i>[mikeˈlandʒelo di lodoˈviːko ˌbwɔnarˈrɔːti siˈmoːni]</i>; 6 March 1475 – 18 February 1564), known mononymously as Michelangelo (English: /ˌ<i>maɪkəlˈændʒəloʊ, ˌmɪk-/ MY-kəl-AN-jə-loh, MIK-əl-</i>), was an Italian sculptor, painter, architect, and poet of the High Renaissance. Born in the Republic of Florence, his work was inspired by models from classical antiquity and had a lasting influence on Western art. Michelangelo's creative abilities and mastery in a range of artistic arenas define him as an archetypal Renaissance man, along with his rival and elder contemporary, Leonardo da Vinci. Given the sheer volume of surviving correspondence, sketches, and reminiscences, Michelangelo is one of the best-documented artists of the 16th century. He was lauded by contemporary biographers as the most accomplished artist of his era.</p>
+
+        <p style = "color: #fff; font-size: 13pt;">&nbsp;&nbsp;Michelangelo achieved fame early. Two of his best-known works, the Pietà and David, were sculpted before the age of 30. Although he did not consider himself a painter, Michelangelo created two of the most influential frescoes in the history of Western art: the scenes from Genesis on the ceiling of the Sistine Chapel in Rome, and The Last Judgment on its altar wall. His design of the Laurentian Library pioneered Mannerist architecture. At the age of 71, he succeeded Antonio da Sangallo the Younger as the architect of St. Peter's Basilica. Michelangelo transformed the plan so that the Western end was finished to his design, as was the dome, with some modification, after his death.</p>
+        
+        <p style = "color: #fff; font-size: 13pt;">&nbsp;&nbsp;Michelangelo was the first Western artist whose biography was published while he was alive. Three biographies were published during his lifetime. One of them, by Giorgio Vasari, proposed that Michelangelo's work transcended that of any artist living or dead, and was "supreme in not one art alone but in all three."</p>
+        
+        <p style = "color: #fff; font-size: 13pt;">&nbsp;&nbsp;In his lifetime, Michelangelo was often called Il Divino ("the divine one"). His contemporaries admired his terribilità—his ability to instill a sense of awe in viewers of his art. Attempts by subsequent artists to imitate the expressive physicality of Michelangelo's style contributed to the rise of Mannerism, a short-lived movement in Western art between the High Renaissance and the Baroque.</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 class="hero h1" style="color:#fff;"><b>Biography</b></h1>
+    <table>
+        <tr>
+            <td><b>Born</b></td>
+            <td>March 6 1475, 
+                Caprese, Republic of Florence</td>
+        </tr>
+        <tr>
+            <td><b>Died</b></td>
+            <td>February 18 1564 (aged 88), 
+                Rome, Papal States</td>
+        </tr>
+        <tr>
+            <td><b>Known for</b></td>
+            <td>Sculpture, Painting, Architecture, Poetry</td>
+        </tr>
+        <tr>
+            <td><b>Notable work</b></td>
+            <td><i>Pietà</i> (1498–1499), 
+                <i>David</i> (1501–1504), 
+                <i>Sistine Chapel ceiling</i> (1508–1512), 
+                <i>Moses</i> (1513–1515), 
+                <i>The Last Judgment</i> (1536–1541,)</td>
+        </tr>
+        <tr>
+            <td><b>Movement</b></td>
+            <td>High Renaissance, Mannerism
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <h1 class="hero h1" style="color:#fff;"><b>Famous Artworks</b></h1>
+    <br>
+    <div class = "container">
+        <div class="row">    
+        <div class="img-box"><div class="clm"><img src="MichaelAngelo/pieta.jpg" alt="s2" style="width: 100%; lenght: 1px; border: 1px solid #ccc;" data-toggle="tooltip" title="Pieta"></div></div>
+        <div class="img-box"><div class="clm"><img src="MichaelAngelo/davidd.jpg" alt="s2" style="width: 100%; lenght: 1px; border: 1px solid #ccc;" data-toggle="tooltip" title="David"></div></div>
+        <div class="img-box"><div class="clm"><img src="MichaelAngelo/ceil.jpg" alt="s2" style="width: 100%; lenght: 1px; border: 1px solid #ccc;" data-toggle="tooltip" title="Sistine Chapel Ceiling"></div></div>
+        <div class="img-box"><div class="clm"><img src="MichaelAngelo/moses.jpg" alt="s2" style="width: 100%; lenght: 1px; border: 1px solid #ccc;" data-toggle="tooltip" title="Moses"></div></div>
+        <div class="img-box"><div class="clm"><img src="MichaelAngelo/judgement.jpg" alt="s2" style="width: 100%; lenght: 1px; border: 1px solid #ccc;" data-toggle="tooltip" title="The Last Judgement"></div></div>
+    </div></div>
+</body>
+</html>
